@@ -1,0 +1,10 @@
+  {
+    "name": "Weeds",
+    "version": "1.0",
+    "description": "Easily change calendars when creating new events in Google Calendar",
+    "manifest_version": 2,
+    "content_scripts": [ {
+        "matches": ["https://calendar.google.com/*"],
+        "js": ["main.js"]
+    } ]
+  }
