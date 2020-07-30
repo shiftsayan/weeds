@@ -33,7 +33,7 @@ document.body.addEventListener('input', function(event) {
             setTimeout(() => {
                 elements = document.querySelectorAll('[data-value="' + calendar_id + '"]');
                 clickOnElement(elements.item(elements.length - 1));
-            }, 500);
+            }, 1000);
 
             // Remove tag from event title
             var re = new RegExp(" ?#" + tag)
