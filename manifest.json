@@ -5,7 +5,7 @@
     "manifest_version": 2,
     "content_scripts": [ {
         "matches": ["https://calendar.google.com/*"],
-        "js": ["main.js"]
+        "js": ["map.js", "main.js"]
     } ],
     "icons": {
       "32": "icons/icon32.png",

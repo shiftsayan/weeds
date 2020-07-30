@@ -15,7 +15,7 @@ document.body.addEventListener('input', function(event) {
         
         // Map tag to calendar 
         tag = typed_string.substring(index_start+1, index_end);
-        calendar_id = map.tag_to_calendar_id[tag];
+        calendar_id = map_tag_to_calendar_id[tag];
         
         // Select calendar using simulated clicks
         if (calendar_id !== undefined) {

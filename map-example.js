@@ -4,7 +4,7 @@
 // The calendar ID is the string preceding the `@group.calendar.google.com`.
 // Nothing stops from multiple tags mapping to the same calendar ID.
 
-tag_to_calendar_id = {
+map_tag_to_calendar_id = {
     'personal': 'sample_calendar_id',
     'work': 'another_sample_calendar_id',
     'todo': 'third_sample_calendar_id'
