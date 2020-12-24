@@ -23,18 +23,18 @@ document.body.addEventListener('input', function(event) {
             elements = document.getElementsByClassName('Lvl1Vd');
             clickOnElement(elements.item(elements.length - 1));
             
-            // Click on the calendar selector
+            // Click on the calendar dropdown
             setTimeout(() => {
                 element = document.getElementById('xCalSel');
                 clickOnElement(element);
-            }, 100);
-            
+            }, 10);
+
             // Click on the calendar
             setTimeout(() => {
                 elements = document.querySelectorAll('[data-value="' + calendar_id + '"]');
                 clickOnElement(elements.item(elements.length - 1));
-            }, 1000);
-
+            }, 200);
+ 
             // Remove tag from event title
             var re = new RegExp(" ?#" + tag)
             event.target.value = typed_string.replace(re, '');
